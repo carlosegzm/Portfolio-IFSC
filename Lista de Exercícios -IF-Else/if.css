@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cambria', serif;
+    background-color: #f2f2f2;
+    color: #187010;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.header div {
+    margin-bottom: 5px;
+}
+
+.header div strong {
+    color: #000000;
+}
+
+.text-center > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-center > div strong {
+    color: #000000;
+}
+
+.title-box {
+    background-color: #0d9416;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-box h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.question {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.question h5 {
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+.question a {
+    color: #0d9416;
+    text-decoration: none;
+}
+
+.question a:hover {
+    text-decoration: underline;
+}
+
+.download-box {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.download-box h3 {
+    color: #0d9416;
+    margin-bottom: 10px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d9416;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #000000;
+}

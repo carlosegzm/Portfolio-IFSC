@@ -1,0 +1,58 @@
+Aluno: Carlos Eduardo Garcez Mattos
+
+Lista de Exercícios:
+
+Identifique o tipo dos dados:
+(a) numérico inteiro;
+(b) numérico real;
+(c) lógico;
+(d) caracter;
+
+(c) verdade         (b) 45.0          (a) 2345            (b) 0.0
+(d) “aula“          (d) 'c*d'         (a) -456            (d) '0123'
+(b) -0.204          (b) 30.12         (d) '56'            (b) -15.0962
+(d) “ “             (b) -334.89       (b) -12E3           (c) falsidade
+(a) 0               (a) 708           (d) “falsidade“     (a) -22
+(a) 32              (b) -1.3          (d) “BOLA“          (d) “&“
+(d) “VERDADE“       (b) -4.5E-301     (b) 0.56E2          (d) “a“
+
+
+2 Assinale com um X os identificadores de variáveis válidos:
+(X) valor 		( ) A:B 		( ) 5A 			(X) x2
+( ) B*D 		( ) M{A} 		( ) 3x4 		( ) NOTA[1]
+( ) OI! 		(X) XYZ 		( ) X-Y 		( ) nota*ano
+( ) 'nota' 		( ) E(13) 		( ) ai! 		(X) SAL_BRUTO
+( ) GUARDA-CHUVA 	( ) KM/H 		(X) A312 		( ) 3/1
+( ) #12 		(X) _Y 			( ) E&E: 		( ) 4you
+(X) a14b56 		(X) ___a 		( ) 'aula' 		(X) aula
+
+
+3 Faça a declaração de 3 variáveis do tipo numérica inteira,
+2 variáveis do tipo numérica real, 2 variáveis do tipo
+caracter.
+
+	int Inteira1 =
+	int Inteira2 =
+	int Inteira3 = 
+	double Real1 = 
+	double Real2 =
+	char Caracter1 = 
+	char Caracter2 
+
+
+4 Supondo que as variáveis NOME, PROF, ID e SALARIO sejam
+utilizadas para armazenar nome, código da profissão, idade
+e salário de uma pessoa, escreva o conjunto de declarações
+necessário para criar estas variáveis e associar às mesmas
+respectivos tipos primitivos.
+
+public class Exercico4 {
+    public static void main(String[] args0 {
+
+	String NOME;
+	int PROF;
+	int ID;
+	double SALARIO;
+
+     }
+}
